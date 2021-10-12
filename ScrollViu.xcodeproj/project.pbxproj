@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172554F0271565E90062730C /* ScrollViuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172554EF271565E90062730C /* ScrollViuApp.swift */; };
+		172554F2271565E90062730C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172554F1271565E90062730C /* ContentView.swift */; };
+		172554F4271565EF0062730C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172554F3271565EF0062730C /* Assets.xcassets */; };
+		172554F7271565EF0062730C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 172554F6271565EF0062730C /* Preview Assets.xcassets */; };
+		17255501271565EF0062730C /* ScrollViuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17255500271565EF0062730C /* ScrollViuTests.swift */; };
+		1725550B271565EF0062730C /* ScrollViuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725550A271565EF0062730C /* ScrollViuUITests.swift */; };
+		1725550D271565EF0062730C /* ScrollViuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1725550C271565EF0062730C /* ScrollViuUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		172554FD271565EF0062730C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172554E4271565E90062730C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172554EB271565E90062730C;
+			remoteInfo = ScrollViu;
+		};
+		17255507271565EF0062730C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 172554E4271565E90062730C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 172554EB271565E90062730C;
+			remoteInfo = ScrollViu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172554EC271565E90062730C /* ScrollViu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		172554EF271565E90062730C /* ScrollViuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViuApp.swift; sourceTree = "<group>"; };
+		172554F1271565E90062730C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		172554F3271565EF0062730C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		172554F6271565EF0062730C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		172554FC271565EF0062730C /* ScrollViuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17255500271565EF0062730C /* ScrollViuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViuTests.swift; sourceTree = "<group>"; };
+		17255506271565EF0062730C /* ScrollViuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1725550A271565EF0062730C /* ScrollViuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViuUITests.swift; sourceTree = "<group>"; };
+		1725550C271565EF0062730C /* ScrollViuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		172554E9271565E90062730C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172554F9271565EF0062730C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17255503271565EF0062730C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		172554E3271565E90062730C = {
+			isa = PBXGroup;
+			children = (
+				172554EE271565E90062730C /* ScrollViu */,
+				172554FF271565EF0062730C /* ScrollViuTests */,
+				17255509271565EF0062730C /* ScrollViuUITests */,
+				172554ED271565E90062730C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		172554ED271565E90062730C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				172554EC271565E90062730C /* ScrollViu.app */,
+				172554FC271565EF0062730C /* ScrollViuTests.xctest */,
+				17255506271565EF0062730C /* ScrollViuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		172554EE271565E90062730C /* ScrollViu */ = {
+			isa = PBXGroup;
+			children = (
+				172554EF271565E90062730C /* ScrollViuApp.swift */,
+				172554F1271565E90062730C /* ContentView.swift */,
+				172554F3271565EF0062730C /* Assets.xcassets */,
+				172554F5271565EF0062730C /* Preview Content */,
+			);
+			path = ScrollViu;
+			sourceTree = "<group>";
+		};
+		172554F5271565EF0062730C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				172554F6271565EF0062730C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		172554FF271565EF0062730C /* ScrollViuTests */ = {
+			isa = PBXGroup;
+			children = (
+				17255500271565EF0062730C /* ScrollViuTests.swift */,
+			);
+			path = ScrollViuTests;
+			sourceTree = "<group>";
+		};
+		17255509271565EF0062730C /* ScrollViuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1725550A271565EF0062730C /* ScrollViuUITests.swift */,
+				1725550C271565EF0062730C /* ScrollViuUITestsLaunchTests.swift */,
+			);
+			path = ScrollViuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		172554EB271565E90062730C /* ScrollViu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17255510271565EF0062730C /* Build configuration list for PBXNativeTarget "ScrollViu" */;
+			buildPhases = (
+				172554E8271565E90062730C /* Sources */,
+				172554E9271565E90062730C /* Frameworks */,
+				172554EA271565E90062730C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViu;
+			productName = ScrollViu;
+			productReference = 172554EC271565E90062730C /* ScrollViu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		172554FB271565EF0062730C /* ScrollViuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17255513271565EF0062730C /* Build configuration list for PBXNativeTarget "ScrollViuTests" */;
+			buildPhases = (
+				172554F8271565EF0062730C /* Sources */,
+				172554F9271565EF0062730C /* Frameworks */,
+				172554FA271565EF0062730C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				172554FE271565EF0062730C /* PBXTargetDependency */,
+			);
+			name = ScrollViuTests;
+			productName = ScrollViuTests;
+			productReference = 172554FC271565EF0062730C /* ScrollViuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17255505271565EF0062730C /* ScrollViuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17255516271565EF0062730C /* Build configuration list for PBXNativeTarget "ScrollViuUITests" */;
+			buildPhases = (
+				17255502271565EF0062730C /* Sources */,
+				17255503271565EF0062730C /* Frameworks */,
+				17255504271565EF0062730C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17255508271565EF0062730C /* PBXTargetDependency */,
+			);
+			name = ScrollViuUITests;
+			productName = ScrollViuUITests;
+			productReference = 17255506271565EF0062730C /* ScrollViuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		172554E4271565E90062730C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					172554EB271565E90062730C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					172554FB271565EF0062730C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 172554EB271565E90062730C;
+					};
+					17255505271565EF0062730C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 172554EB271565E90062730C;
+					};
+				};
+			};
+			buildConfigurationList = 172554E7271565E90062730C /* Build configuration list for PBXProject "ScrollViu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 172554E3271565E90062730C;
+			productRefGroup = 172554ED271565E90062730C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				172554EB271565E90062730C /* ScrollViu */,
+				172554FB271565EF0062730C /* ScrollViuTests */,
+				17255505271565EF0062730C /* ScrollViuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		172554EA271565E90062730C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172554F7271565EF0062730C /* Preview Assets.xcassets in Resources */,
+				172554F4271565EF0062730C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172554FA271565EF0062730C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17255504271565EF0062730C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		172554E8271565E90062730C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172554F2271565E90062730C /* ContentView.swift in Sources */,
+				172554F0271565E90062730C /* ScrollViuApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		172554F8271565EF0062730C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17255501271565EF0062730C /* ScrollViuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17255502271565EF0062730C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1725550D271565EF0062730C /* ScrollViuUITestsLaunchTests.swift in Sources */,
+				1725550B271565EF0062730C /* ScrollViuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		172554FE271565EF0062730C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172554EB271565E90062730C /* ScrollViu */;
+			targetProxy = 172554FD271565EF0062730C /* PBXContainerItemProxy */;
+		};
+		17255508271565EF0062730C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 172554EB271565E90062730C /* ScrollViu */;
+			targetProxy = 17255507271565EF0062730C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1725550E271565EF0062730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1725550F271565EF0062730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17255511271565EF0062730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollViu/Preview Content\"";
+				DEVELOPMENT_TEAM = RLPU6HQ778;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Viu.ScrollViu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17255512271565EF0062730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ScrollViu/Preview Content\"";
+				DEVELOPMENT_TEAM = RLPU6HQ778;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Viu.ScrollViu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17255514271565EF0062730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLPU6HQ778;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Viu.ScrollViuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViu.app/ScrollViu";
+			};
+			name = Debug;
+		};
+		17255515271565EF0062730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLPU6HQ778;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Viu.ScrollViuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViu.app/ScrollViu";
+			};
+			name = Release;
+		};
+		17255517271565EF0062730C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLPU6HQ778;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Viu.ScrollViuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollViu;
+			};
+			name = Debug;
+		};
+		17255518271565EF0062730C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLPU6HQ778;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Viu.ScrollViuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollViu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172554E7271565E90062730C /* Build configuration list for PBXProject "ScrollViu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1725550E271565EF0062730C /* Debug */,
+				1725550F271565EF0062730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17255510271565EF0062730C /* Build configuration list for PBXNativeTarget "ScrollViu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17255511271565EF0062730C /* Debug */,
+				17255512271565EF0062730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17255513271565EF0062730C /* Build configuration list for PBXNativeTarget "ScrollViuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17255514271565EF0062730C /* Debug */,
+				17255515271565EF0062730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17255516271565EF0062730C /* Build configuration list for PBXNativeTarget "ScrollViuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17255517271565EF0062730C /* Debug */,
+				17255518271565EF0062730C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 172554E4271565E90062730C /* Project object */;
+}
